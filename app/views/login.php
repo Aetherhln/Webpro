@@ -1,6 +1,6 @@
 <?php
-require_once 'controllers/UserController.php';
-require_once 'views/UserView.php';
+require_once __DIR__ . '/../controllers/UserController.php';
+require_once __DIR__ . '/UserView.php';
 session_start();
 if (isset($_SESSION['user'])) {
     if ($_SESSION['user'] === 'admin') {

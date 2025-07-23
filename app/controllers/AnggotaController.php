@@ -1,5 +1,5 @@
 <?php
-require_once 'models/AnggotaModel.php';
+require_once __DIR__ . '/../models/AnggotaModel.php';
 
 class AnggotaController {
     private $model;
